@@ -10259,7 +10259,7 @@ ul.mesmerize-language-switcher.after-menu span {
 }
 
 .submit-donation{
-  padding: 11px 20px;
+  padding: 8px 20px;
   background-color: #00D632;
   color: white;
   border-radius: 5px;
@@ -10267,6 +10267,7 @@ ul.mesmerize-language-switcher.after-menu span {
   margin-left: 10px;
   font-weight: bold;
   font-size: 14px;
+  display: inline-block;
 }
 
 .submit-donation:hover{
@@ -10297,4 +10298,34 @@ ul.mesmerize-language-switcher.after-menu span {
 
 .c-sl-theme mb-0{
   color: red !important;
+}
+
+.break-div{
+  margin-left: -120px;
+  margin-right: -120px;
+}
+
+.multiplier{
+  display: inline-block;
+  margin: 0px 5px;
+}
+
+
+@media only screen and (max-width: 600px) {
+  .content-block{
+    padding:30px 30px;
+    color: #3C424F;
+  }
+
+  .break-div{
+    margin-left: -30px;
+    margin-right: -30px;
+  }
+
+  .mobile-break{
+    display: block;
+    text-align: center;
+    margin:10px 0px;
+  }
+
 }

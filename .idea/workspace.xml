@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="78525c23-f114-44ed-bc99-404dc3f680b7" name="Default Changelist" comment="" />
+    <list default="true" id="78525c23-f114-44ed-bc99-404dc3f680b7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inc/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/inc/functions.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/page-templates/template-just-the-tip.php" beforeDir="false" afterPath="$PROJECT_DIR$/page-templates/template-just-the-tip.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -19,7 +25,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1aLoeF2iH6N7zXt8EXfni9hGhmF" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -27,6 +37,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
@@ -52,7 +63,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1586524328737</updated>
-      <workItem from="1586524330994" duration="17234000" />
+      <workItem from="1586524330994" duration="21778000" />
     </task>
     <servers />
   </component>
@@ -76,9 +87,9 @@
       <screen x="3840" y="0" width="2194" height="1194" />
     </state>
     <state x="3953" y="372" width="1830" height="1180" key="dock-window-2/0.0.2194.1194/3840.0.2194.1194@3840.0.2194.1194" timestamp="1586541619375" />
-    <state x="4631" y="195" width="927" height="804" key="find.popup" timestamp="1586539815897">
+    <state x="4631" y="195" width="927" height="804" key="find.popup" timestamp="1586546826261">
       <screen x="3840" y="0" width="2194" height="1194" />
     </state>
-    <state x="4631" y="195" width="927" height="804" key="find.popup/0.0.2194.1194/3840.0.2194.1194@3840.0.2194.1194" timestamp="1586539815897" />
+    <state x="4631" y="195" width="927" height="804" key="find.popup/0.0.2194.1194/3840.0.2194.1194@3840.0.2194.1194" timestamp="1586546826261" />
   </component>
 </project>

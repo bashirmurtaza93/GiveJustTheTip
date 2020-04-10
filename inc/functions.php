@@ -580,9 +580,19 @@ function mesmerize_enqueue( $type = 'style', $handle, $args = array() ) {
 		wp_enqueue_script( $handle, $data['src'], $data['deps'], $data['ver'], $data['in_footer'] );
 	}
 
+
     wp_enqueue_script( 'mesmerize-theme-info', get_template_directory_uri() . "/assets/js/front-page.js",
         array( 'jquery' ), '', true );
 }
+
+function image_block_handler($arr){
+    $image = $arr['image'];
+    return  '<div class="break-div header-wrapper">
+            <div class="header-homepage  color-overlay" style="background-image: url(\''.$image.'\'); padding-top: 85px;" data-parallax-depth="20"></div></div>
+                                                ';
+}
+
+add_shortcode( 'image-block', 'image_block_handler' );
 
 function mesmerize_enqueue_style( $handle, $args ) {
 	mesmerize_enqueue( 'style', $handle, $args );
@@ -1237,3 +1247,4 @@ function mesmerize_skip_link_focus_fix() {
 }
 
 add_action( 'wp_print_footer_scripts', 'mesmerize_skip_link_focus_fix' );
+

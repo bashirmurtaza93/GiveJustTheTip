@@ -14,11 +14,11 @@
         $donation_options = get_option('jtt_theme_settings');
         $donation_percentage = (isset($donation_options['donation_percentage'])) ? $donation_options['donation_percentage'] : 0;
         $donation_calculator_success = (isset($donation_options['donation_calculator_success'])) ? $donation_options['donation_calculator_success'] : 'To donate the tip, you must donate: ';
-        echo $post->post_content;
+        echo do_shortcode($post->post_content);
         //todo calculation here.
         ?>
         <br/>
-        <input type="text" disabled value="<?php echo $donation_percentage;?>" id="percentage"> *   <div class="paycheck-container">$<input type="text" id="paycheck"> <button class="submit-donation">Submit</button></div>
+        <input type="text" disabled value="<?php echo $donation_percentage;?>" id="percentage">% <div class="mobile-break multiplier">*</div>   <div class="paycheck-container">$<input type="text" id="paycheck"> <div class="mobile-break submit-donation">Submit</div></div>
         <div class="donate-percentage" data-text="<?php echo $donation_calculator_success;?>"></div>
     </div>
     <div class="donations">
