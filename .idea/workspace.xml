@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="78525c23-f114-44ed-bc99-404dc3f680b7" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution>
+      <executable />
+    </execution>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1aLoeF2iH6N7zXt8EXfni9hGhmF" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Bashir\Documents\Projects\blobfitness-wordpress\wp-content\themes\mesmerize\inc" />
+      <recent name="C:\Users\Bashir\Documents\Projects\blobfitness-wordpress\wp-content\themes\mesmerize\page-templates" />
+    </key>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="78525c23-f114-44ed-bc99-404dc3f680b7" name="Default Changelist" comment="" />
+      <created>1586524328737</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1586524328737</updated>
+      <workItem from="1586524330994" duration="17234000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="4772" y="521" key="NewPhpFileDialog" timestamp="1586531448601">
+      <screen x="3840" y="0" width="2194" height="1194" />
+    </state>
+    <state x="4772" y="521" key="NewPhpFileDialog/0.0.2194.1194/3840.0.2194.1194@3840.0.2194.1194" timestamp="1586531448601" />
+    <state x="798" y="421" key="com.intellij.ide.util.TipDialog" timestamp="1586524332357">
+      <screen x="0" y="0" width="2194" height="1194" />
+    </state>
+    <state x="798" y="421" key="com.intellij.ide.util.TipDialog/0.0.2194.1194/3840.0.2194.1194@0.0.2194.1194" timestamp="1586524332357" />
+    <state x="4281" y="470" width="1830" height="819" key="dock-window-1" timestamp="1586537890935">
+      <screen x="3840" y="0" width="2194" height="1194" />
+    </state>
+    <state x="4281" y="470" width="1830" height="819" key="dock-window-1/0.0.2194.1194/3840.0.2194.1194@3840.0.2194.1194" timestamp="1586537890935" />
+    <state x="3953" y="372" width="1830" height="1180" key="dock-window-2" timestamp="1586541619375">
+      <screen x="3840" y="0" width="2194" height="1194" />
+    </state>
+    <state x="3953" y="372" width="1830" height="1180" key="dock-window-2/0.0.2194.1194/3840.0.2194.1194@3840.0.2194.1194" timestamp="1586541619375" />
+    <state x="4631" y="195" width="927" height="804" key="find.popup" timestamp="1586539815897">
+      <screen x="3840" y="0" width="2194" height="1194" />
+    </state>
+    <state x="4631" y="195" width="927" height="804" key="find.popup/0.0.2194.1194/3840.0.2194.1194@3840.0.2194.1194" timestamp="1586539815897" />
+  </component>
+</project>
