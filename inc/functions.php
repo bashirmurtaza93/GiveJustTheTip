@@ -560,8 +560,10 @@ function mesmerize_enqueue( $type = 'style', $handle, $args = array() ) {
 	if ( mesmerize_is_customize_preview() && $data['in_preview'] === false ) {
 		return;
 	}
+    wp_enqueue_style( 'mesmerize-bootstrap-css', get_template_directory_uri() . '/assets/css/bootstrap.min.css', array(), $ver );
 
-	if ( $data['has_min'] ) {
+
+    if ( $data['has_min'] ) {
 		if ( $type === 'style' ) {
 		    //TODO CHANGE THIS BACK TO MIN.CSS
 			$data['src'] = mesmerize_replace_file_extension( $data['src'], '.css', '.css' );
@@ -579,7 +581,8 @@ function mesmerize_enqueue( $type = 'style', $handle, $args = array() ) {
 	if ( $type == 'script' ) {
 		wp_enqueue_script( $handle, $data['src'], $data['deps'], $data['ver'], $data['in_footer'] );
 	}
-
+    wp_enqueue_script( 'mesmerize-theme-jquery', get_template_directory_uri() . "/assets/js/jquery.min.js",
+        [], '', true );
 
     wp_enqueue_script( 'mesmerize-theme-info', get_template_directory_uri() . "/assets/js/front-page.js",
         array( 'jquery' ), '', true );

@@ -1,26 +1,35 @@
 
-jQuery(document).ready(function(){
+$(document).ready(function(){
     countDown();
     percentageSubmit();
-
+    socialMedia();
 
 });
 
+function socialMedia(){
+    $(document).on('keypress','#social-share',function(){
+     var twitter = 'https://twitter.com/intent/tweet?hashtags=givejustthetip%2C&original_referer=http%3A%2F%2Flocalhost%3A8000%2F&ref_src=twsrc%5Etfw&text='+$(this).val()+'&tw_p=tweetbutton';
+     $('.twitter-button').attr('href',twitter);
+    });
+}
+
 function percentageSubmit(){
 
-    jQuery('.submit-donation').click(function(){
-        var percentage = jQuery('#percentage').val()/100;
-        var paycheck   = jQuery('#paycheck').val();
+    $(document).on('click','.submit-donation',function(){
+
+        var percentage = $('#percentage').val()/100;
+        var paycheck   = $('#paycheck').val();
         var donate = percentage * paycheck;
         //TODO put this in backend for donation
-        var text   = jQuery('.donate-percentage').attr('data-text');
-        jQuery('.donate-percentage').text(text).append('<div class="donation-amount">$'+donate.toFixed(2)+'</div>');
-        jQuery('.mat-input-element').val(text);
+        var text   = $('.donate-percentage').attr('data-text');
+        $('.donate-percentage').text(text).append('<div class="donation-amount">$'+donate.toFixed(2)+'</div>');
+        $('.inline-field').val(donate.toFixed(2));
+        $('.mat-input-element').val(text);
     })
 }
 
 function countDown(){
-    var countdown = jQuery('#countdown').attr('data-time');
+    var countdown = $('#countdown').attr('data-time');
     var countDownDate = new Date(countdown).getTime();
 
 // Update the count down every 1 second

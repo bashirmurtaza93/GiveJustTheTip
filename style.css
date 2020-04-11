@@ -10243,56 +10243,86 @@ ul.mesmerize-language-switcher.after-menu span {
 }
 
 .content-block{
-  padding:120px 120px;
+  padding:30px 120px;
   color: #3C424F;
 }
 
 #paycheck{
   display: inline-block;
-  width: 200px;
+  width: 80%;
+  text-align: center;
+  color: #00D632;
+  font-weight: bold;
+  height: 60px;
+  font-size: 28px;
+}
+
+.dollar-sign{
+  font-size: 28px;
 }
 #percentage{
   display: inline-block;
-  width: 100px;
+  width: 100%;
   margin-right: 5px;
+  text-align: center;
+  color: black;
+  font-weight: bold;
+  height: 60px;
+  font-size: 28px;
 
 }
 
+.main-calculation-container{
+  padding:0px 20%;
+  text-align: center;
+}
+
 .submit-donation{
-  padding: 8px 20px;
+  padding: 10px 40px;
   background-color: #00D632;
   color: white;
   border-radius: 5px;
   border: 0px;
-  margin-left: 10px;
   font-weight: bold;
-  font-size: 14px;
+  font-size: 21px;
   display: inline-block;
+  margin-top:40px;
 }
 
 .submit-donation:hover{
   cursor: pointer;
 }
 
+.unemployment-label{
+  font-size: 1.2em;
+  margin: 20px 0px;
+}
+
 .paycheck-container{
+  float: left;
   display: inline-block;
-  margin-left: 5px;
+  text-align: center;
+}
+
+.percentage-container{
+  text-align: center;
+  float: left;
 }
 
 .donation-amount{
   color: #00D632;
   display: inline-block;
   font-weight: bold;
-  margin-left: 3px;
+  margin-left: 10px;
 }
 
 .donate-percentage{
-  margin-top: 5px;
+  margin-top: 50px;
+  font-size: 21px;
 }
 
-.donations > .col-md-4{
+.donations > .donation-box {
   float: left;
-  margin:0px 4.5%;
 }
 
 
@@ -10306,9 +10336,43 @@ ul.mesmerize-language-switcher.after-menu span {
 }
 
 .multiplier{
-  display: inline-block;
-  margin: 0px 5px;
+  font-size: 36px;
+  font-weight:bold;
+  text-align: center;
+  float: left;
+  margin-top: 40px;
 }
+
+.percentage-information-container{
+  float: right;
+}
+
+.paycheck-information-container{
+  float: left;
+}
+
+
+.social-media{
+  text-align: center;
+}
+.social-media-box{
+  padding:0px 30%;
+}
+
+.twitter-button{
+  padding: 3px 20px;
+  background-color: #03a9f4;
+  color: white !important;
+  border-radius: 5px;
+  border: 0px;
+  margin-right: 20px;
+}
+
+.button-container{
+  text-align: center;
+  margin-top: 20px;
+}
+
 
 
 @media only screen and (max-width: 600px) {
@@ -10325,7 +10389,14 @@ ul.mesmerize-language-switcher.after-menu span {
   .mobile-break{
     display: block;
     text-align: center;
-    margin:10px 0px;
+    margin:30px 0px 10px;
+  }
+
+  .main-calculation-container{
+    padding:0px 5%;
+  }
+  .social-media-box{
+    padding:0px 5%;
   }
 
 }
