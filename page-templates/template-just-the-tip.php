@@ -49,7 +49,7 @@
     </div>
 
     <div class="social-media-box">
-        <h1 class="social-media">Share on Social Media!</h1>
+        <h1 class="social-media">Share</h1>
         <textarea id="social-share">I did something with my tip..... #givejusthetip</textarea>
         <div class="button-container">
         <a href="https://twitter.com/intent/tweet?hashtags=givejustthetip%2C&original_referer=http%3A%2F%2Flocalhost%3A8000%2F&ref_src=twsrc%5Etfw&text=give%20thet%20up&tw_p=tweetbutton"
