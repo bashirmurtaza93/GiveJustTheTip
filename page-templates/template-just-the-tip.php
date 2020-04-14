@@ -7,7 +7,12 @@
 <div id="fb-root"></div>
 <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v6.0"></script>
 <div id='page-content' class="page-content">
-
+    <?php
+        $donate_options =  get_option('jtt_theme_settings');
+        $date = strtotime($donate_options['donation_date']);
+        $time = date('M j, Y', $date);
+        ?>
+    <div id="countdown" data-time="<?php echo $time;?>"></div>
     <div class="content-block content-even col-xs-12">
         <?php
         $post = get_page_by_title('How it Works', OBJECT, 'post');

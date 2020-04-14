@@ -81,10 +81,7 @@ function mesmerize_print_header_subtitle()
         }
     }
     if ($show) {
-        //TODO COUNT DOWN HERE!!!
-        $donate_options =  get_option('jtt_theme_settings');
-        $date = strtotime($donate_options['donation_date']);
-        $time = date('M j, Y', $date);
-        printf('<p class="header-subtitle" id="countdown" data-time="'.$time.'">%1$s</p>', mesmerize_wp_kses_post($subtitle));
+
+        printf('<p class="header-subtitle"  >%1$s</p>', mesmerize_wp_kses_post($subtitle));
     }
 }

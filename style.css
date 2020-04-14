@@ -646,7 +646,7 @@ h1.title, h1, h2, h3, h4, h5, .comment-author .fn, h6 {
   font-family: "Muli", sans-serif;
   font-weight: 600;
   /*color: #3C424F;*/
-  color: #00D632;
+  color: #6aff1c;
   text-rendering: optimizeLegibility;
   margin-bottom: 16px;
 }
@@ -5495,7 +5495,7 @@ a.text-logo, a.text-logo:visited, a.text-logo:hover {
   background-size: cover;
   position: relative;
   z-index: 0;
-  min-height: 85vh;
+  min-height: 65vh;
 }
 
 h1.hero-title {
@@ -5978,7 +5978,7 @@ img.custom-logo {
   }
 
   .header-homepage .header-description-row{
-    padding: 25% 0px !important;
+    padding: 5% 0px !important;
   }
 
   .mesmerize-front-page .header-description-row > div {
@@ -10251,7 +10251,7 @@ ul.mesmerize-language-switcher.after-menu span {
   display: inline-block;
   width: 80%;
   text-align: center;
-  color: #00D632;
+  color: #6aff1c;
   font-weight: bold;
   height: 60px;
   font-size: 28px;
@@ -10279,7 +10279,7 @@ ul.mesmerize-language-switcher.after-menu span {
 
 .submit-donation{
   padding: 10px 40px;
-  background-color: #00D632;
+  background-color: #6aff1c;
   color: white;
   border-radius: 5px;
   border: 0px;
@@ -10310,7 +10310,7 @@ ul.mesmerize-language-switcher.after-menu span {
 }
 
 .donation-amount{
-  color: #00D632;
+  color: #6aff1c;
   display: inline-block;
   font-weight: bold;
   margin-left: 10px;
@@ -10371,6 +10371,18 @@ ul.mesmerize-language-switcher.after-menu span {
 .button-container{
   text-align: center;
   margin-top: 20px;
+}
+
+#countdown{
+  font-size: 3em;
+  width: 100%;
+  color: blue;
+  background-color: #003b7e;
+  color: white;
+  margin-top: -6rem;
+  height: 180px;
+  text-align: center;
+  padding-top: 70px;
 }
 
 

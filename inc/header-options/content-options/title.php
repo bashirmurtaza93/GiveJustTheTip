@@ -82,9 +82,9 @@ function mesmerize_print_header_title()
     $title = apply_filters("mesmerize_header_title", $title);
 
     if ($show) {
-        $donate_options =  get_option('jtt_theme_settings');
-        $date = strtotime($donate_options['donation_date']);
-        $text = $donate_options['donation_text'].' '.date('F dS', $date);
-        printf('<h1 class="hero-title">%1$s</h1>', $text);
+//        $donate_options =  get_option('jtt_theme_settings');
+//        $date = strtotime($donate_options['donation_date']);
+//        $text = $donate_options['donation_text'].' '.date('F dS', $date);
+        printf('<h1 class="hero-title">JUST THE TIP <br/>Can make a difference </h1>');
     }
 }
