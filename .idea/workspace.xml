@@ -3,12 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="78525c23-f114-44ed-bc99-404dc3f680b7" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/front-page.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/front-page.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inc/header-options/background-options/background-types/image.php" beforeDir="false" afterPath="$PROJECT_DIR$/inc/header-options/background-options/background-types/image.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inc/header-options/content-options/title.php" beforeDir="false" afterPath="$PROJECT_DIR$/inc/header-options/content-options/title.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inc/theme-settings.php" beforeDir="false" afterPath="$PROJECT_DIR$/inc/theme-settings.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/page-templates/template-just-the-tip.php" beforeDir="false" afterPath="$PROJECT_DIR$/page-templates/template-just-the-tip.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,6 +66,7 @@
       <workItem from="1586905816408" duration="6333000" />
       <workItem from="1586988458926" duration="6111000" />
       <workItem from="1587043910830" duration="4723000" />
+      <workItem from="1587156853883" duration="18000" />
     </task>
     <servers />
   </component>
@@ -86,10 +82,10 @@
       <screen x="2560" y="0" width="2048" height="1112" />
     </state>
     <state x="2653" y="93" width="1862" height="926" key="com.intellij.history.integration.ui.views.SelectionHistoryDialog/0.0.2048.1112/2560.0.2048.1112@2560.0.2048.1112" timestamp="1586913135732" />
-    <state x="3305" y="392" key="com.intellij.ide.util.TipDialog" timestamp="1587043911141">
+    <state x="3305" y="392" key="com.intellij.ide.util.TipDialog" timestamp="1587156860409">
       <screen x="2560" y="0" width="2048" height="1112" />
     </state>
-    <state x="3305" y="392" key="com.intellij.ide.util.TipDialog/0.0.2048.1112/2560.0.2048.1112@2560.0.2048.1112" timestamp="1587043911141" />
+    <state x="3305" y="392" key="com.intellij.ide.util.TipDialog/0.0.2048.1112/2560.0.2048.1112@2560.0.2048.1112" timestamp="1587156860409" />
     <state x="798" y="421" key="com.intellij.ide.util.TipDialog/0.0.2194.1194/3840.0.2194.1194@0.0.2194.1194" timestamp="1586524332357" />
     <state x="4638" y="421" key="com.intellij.ide.util.TipDialog/0.0.2194.1194/3840.0.2194.1194@3840.0.2194.1194" timestamp="1586701043727" />
     <state x="4281" y="470" width="1830" height="819" key="dock-window-1" timestamp="1586537890935">
