@@ -21,7 +21,7 @@ class JTT_Settings{
 
         register_setting('jtt_option_group','jtt_theme_settings',[$this,'register']);
         add_settings_section('donation_section', 'Please provide next donation time', [$this, 'donation_section_callback'], 'jtt-setting-admin');
-        add_settings_field('donation_text','Donation Text', [$this, 'donation_text'],'jtt-setting-admin','donation_section',$this->options['donation_text']);
+        add_settings_field('donation_image','Donation Image URL for header', [$this, 'donation_image'],'jtt-setting-admin','donation_section',$this->options['donation_image']);
         add_settings_field('donation_time','Donation Time', [$this, 'donation_time'],'jtt-setting-admin','donation_section',$this->options['donation_time']);
         add_settings_field('donation_example','Donation Field Example', [$this, 'donation_example'],'jtt-setting-admin','donation_section','');
         add_settings_field('donation_percentage','Donation Percentage ', [$this, 'donation_percentage'],'jtt-setting-admin','donation_section','');
@@ -61,8 +61,8 @@ class JTT_Settings{
     }
 
 
-    public function donation_text(){
-        print '<input name="jtt_theme_settings[donation_text]" type="text" value="'.$this->options['donation_text'].'">';
+    public function donation_image(){
+        print '<input name="jtt_theme_settings[donation_image]" type="text" value="'.$this->options['donation_image'].'">';
     }
 
     public function donation_time(){

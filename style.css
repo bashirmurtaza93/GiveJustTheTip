@@ -19,6 +19,21 @@ This theme, like WordPress, is licensed under the GPL.
 /*
   INIT
 */
+
+@font-face {
+  font-family: druk;
+  src: url("assets/fonts/Druk-Heavy.otf");
+}
+@font-face {
+  font-family: futurastd-light;
+  src: url("assets/fonts/FuturaStd-Light.otf");
+  font-weight: normal;
+}
+@font-face {
+  font-family: futurastd-book;
+  src: url("assets/fonts/FuturaStd-Book.otf");
+  font-weight: normal;
+}
 .color1 {
   color: #03a9f4;
 }
@@ -643,12 +658,15 @@ a:hover {
 }
 
 h1.title, h1, h2, h3, h4, h5, .comment-author .fn, h6 {
-  font-family: "Muli", sans-serif;
+  font-family: druk;
   font-weight: 600;
   /*color: #3C424F;*/
-  color: #8ad5de;
+  color: #6188FF;
+  text-transform: uppercase;
   text-rendering: optimizeLegibility;
   margin-bottom: 16px;
+  margin-top:20px;
+  letter-spacing: 2.7px;
 }
 
 .button:only-child, p:last-child, h1:last-child, h2:last-child, h3:last-child, h4:last-child, h5:last-child, .comment-author .fn:last-child, h6:last-child {
@@ -2188,7 +2206,6 @@ table.unstyled th {
 
 .gridContainer {
   box-sizing: border-box;
-  max-width: 1232px;
   margin: 0 auto;
   padding-right: 15px;
   padding-left: 15px;
@@ -5496,38 +5513,40 @@ a.text-logo, a.text-logo:visited, a.text-logo:hover {
   position: relative;
   z-index: 0;
   min-height: 65vh;
+  padding-top:  0px !important;
 }
 
 h1.hero-title {
-  color: #FFFFFF;
-  margin-bottom: 1.25rem;
-  font-size: 3.5rem;
-  font-weight: 300;
-  line-height: 1.14;
   letter-spacing: 0.9px;
+  font-size: 8em;
+  font-weight: bold;
+  color: #003b7e;
+  margin: 0px;
+  font-family: 'druk';
+  letter-spacing: 9px;
 }
 
 p.header-subtitle2,
 p.header-subtitle {
-  font-family: "Muli", sans-serif;
-  font-size: 1.3rem;
-  font-weight: 300;
-  line-height: 130%;
-  color: #ffffff;
-  margin-bottom: 1.25rem;
+font-family: "Muli", sans-serif;
+font-size: 1.3rem;
+font-weight: 300;
+line-height: 130%;
+color: #ffffff;
+margin-bottom: 1.25rem;
 }
 
 .color-overlay:after,
 .color-overlay:before {
-  width: 100%;
-  height: 100%;
-  top: 0px;
-  left: 0px;
-  position: absolute;
-  z-index: 1;
-  display: inline-block;
-  content: " ";
-  /*SAFARI BUG*/
+width: 100%;
+height: 100%;
+top: 0px;
+left: 0px;
+position: absolute;
+z-index: 1;
+display: inline-block;
+content: " ";
+/*SAFARI BUG*/
 }
 
 .color-overlay:after {
@@ -5707,6 +5726,16 @@ img.homepage-header-image.round {
   border-radius: 100%;
   border: 5px solid #fff;
   text-align: center;
+}
+
+.header-image{
+  width: 40%;
+  float: right;
+  margin-top: -12%;
+}
+
+.header-container{
+  float: left;
 }
 
 iframe.header-hero-video {
@@ -5977,8 +6006,13 @@ img.custom-logo {
     align-items: center;
   }
 
+  .header-description{
+    padding-left: 5%;
+    margin: 0px;
+  }
   .header-homepage .header-description-row{
-    padding: 5% 0px !important;
+    padding: 0px !important;
+    margin-top: 15% !important;
   }
 
   .mesmerize-front-page .header-description-row > div {
@@ -10242,23 +10276,25 @@ ul.mesmerize-language-switcher.after-menu span {
   display: none;
 }
 
-.content-block{
-  padding:30px 120px;
-  color: #3C424F;
-}
 
 #paycheck{
   display: inline-block;
   width: 80%;
   text-align: center;
-  color: #6aff1c;
+  color: #6AFF7F;
   font-weight: bold;
   height: 60px;
   font-size: 28px;
 }
 
+#paycheck:hover{
+  box-shadow: 0 0 10px #003B7E;
+  transition: all .3s ease-in-out;
+}
+
 .dollar-sign{
   font-size: 28px;
+  color: #6AFF7F;
 }
 #percentage{
   display: inline-block;
@@ -10272,6 +10308,16 @@ ul.mesmerize-language-switcher.after-menu span {
 
 }
 
+#percentage:hover{
+  box-shadow: 0 0 10px #003B7E;
+  transition: all .3s ease-in-out;
+  border: 0px !important;
+}
+
+#percentage:focus{
+  border: 0px !important;
+}
+
 .main-calculation-container{
   padding:0px 20%;
   text-align: center;
@@ -10279,23 +10325,30 @@ ul.mesmerize-language-switcher.after-menu span {
 
 .submit-donation{
   padding: 10px 40px;
-  background-color: #6aff1c;
-  color: white;
+  background-color: #6AFF7F;
+  color: #003B7E;
   border-radius: 5px;
   border: 0px;
   font-weight: bold;
-  font-size: 21px;
+  font-size: 1.5em;
   display: inline-block;
-  margin-top:40px;
+  margin-top: 40px;
+  text-transform: uppercase;
+  font-family: druk;
 }
 
 .submit-donation:hover{
   cursor: pointer;
+  box-shadow: 0 0 10px #003B7E;
+  transition: all .3s ease-in-out;
+
 }
 
 .unemployment-label{
   font-size: 1.2em;
   margin: 20px 0px;
+  color: #003B7E;
+  font-weight: bold;
 }
 
 .paycheck-container{
@@ -10310,7 +10363,7 @@ ul.mesmerize-language-switcher.after-menu span {
 }
 
 .donation-amount{
-  color: #6aff1c;
+  color: #6AFF7F;
   display: inline-block;
   font-weight: bold;
   margin-left: 10px;
@@ -10373,24 +10426,59 @@ ul.mesmerize-language-switcher.after-menu span {
   margin-top: 20px;
 }
 
-#countdown{
+
+.next-donation-container{
+  margin-top: -7.5rem;
+  background-color :#003b7e;
+  text-align: center;
+  height:25em;
+}
+
+.next-donation-text{
   font-size: 3em;
+  margin-top: 1em;
+  font-weight: 100;
+  color: white;
+  font-family: futurastd-light;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+}
+#countdown{
+  font-size: 14em;
   width: 100%;
   color: blue;
-  background-color: #003b7e;
   color: white;
-  margin-top: -6rem;
   height: 180px;
-  text-align: center;
-  padding-top: 70px;
+  margin-top: 0.7em;
+  font-weight: bold;
+  font-family: druk;
+}
+.content-block {
+  color: black;
+  padding:30px 120px;
+  line-height: 2;
+  font-size: 1.5em;
+  letter-spacing: 0.7px;
+}
+.hero-subtitle{
+  font-size: 3em;
+  text-transform: uppercase;
+  color: #003b7e;
+  font-weight: 100;
+  margin-top: -5px;
+  margin-left: -5px;
+  font-family: futurastd-light;
 }
 
 
-
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 720px) {
   .content-block{
     padding:30px 30px;
-    color: #3C424F;
+    color: black;
+    line-height: 2;
+    font-size: 1.5em;
+    letter-spacing: 0.7px;
+
   }
 
   .break-div{
@@ -10411,4 +10499,59 @@ ul.mesmerize-language-switcher.after-menu span {
     padding:0px 5%;
   }
 
+  #countdown{
+    font-size: 4em;
+  }
+
+  .next-donation-container{
+    height: 20em;
+  }
+
+  .next-donation-text{
+    margin-top: 2em;
+    font-family: futurastd-light;
+  }
+
+}
+
+@media only screen and (max-width: 1200px) {
+  .hero-title{
+    font-size: 4em !important;
+  }
+  .hero-subtitle{
+    font-size: 2em;
+  }
+
+  .header-homepage .header-description-row{
+    margin-top: 20% !important;
+  }
+}
+
+
+@media only screen and (max-width: 900px) {
+  .hero-title{
+    font-size: 4em !important;
+  }
+  .hero-subtitle{
+    font-size: 2em;
+  }
+
+  .header-homepage .header-description-row{
+    margin-top: 20% !important;
+  }
+
+  .header-container{
+    float: none;
+    text-align: center;
+  }
+
+  .header-image{
+    float: none;
+    margin-top: 0%;
+    width:100%;
+  }
+  .align-holder{
+    float: none !important;
+    text-align: center !important;
+  }
 }

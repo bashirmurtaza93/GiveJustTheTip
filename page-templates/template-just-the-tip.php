@@ -12,7 +12,10 @@
         $date = strtotime($donate_options['donation_date']);
         $time = date('M j, Y', $date);
         ?>
-    <div id="countdown" data-time="<?php echo $time;?>"></div>
+    <div class="next-donation-container">
+        <div class="next-donation-text">Next Donation</div>
+     <div id="countdown" data-time="<?php echo $time;?>"></div>
+    </div>
     <div class="content-block content-even col-xs-12">
         <?php
         $post = get_page_by_title('How it Works', OBJECT, 'post');

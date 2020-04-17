@@ -37,10 +37,12 @@ add_filter('mesmerize_override_with_thumbnail_image', function ($value) {
 
 
 add_filter("mesmerize_header_background_atts", function ($attrs, $bg_type, $inner) {
-    if ($bg_type == 'image' || has_post_thumbnail(get_the_ID())) {
+    if ($bg_type == 'image') {
         $prefix        = $inner ? "inner_header" : "header";
         $bgImage       = $inner ? get_header_image() : get_theme_mod($prefix . '_front_page_image', mesmerize_mod_default($prefix . '_front_page_image'));
         $bgImageMobile = $inner ? get_header_image() : get_theme_mod($prefix . '_front_page_image_mobile', false);
+
+        $bgColor = get_theme_mod($prefix . '_bg_color_image', "#9CDB92");
 
         if ($inner && apply_filters('mesmerize_override_with_thumbnail_image', false)) {
             global $post;
