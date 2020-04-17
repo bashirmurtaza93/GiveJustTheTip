@@ -7964,7 +7964,7 @@ body {
 @media (max-width: 768px) {
   .mesmerize-content-padding #page > .page-content,
   .mesmerize-inner-page #page > .page-content {
-    padding-top: 3rem;
+    padding-top: 4rem;
     padding-bottom: 3rem;
   }
 }
@@ -10500,7 +10500,7 @@ ul.mesmerize-language-switcher.after-menu span {
   }
 
   #countdown{
-    font-size: 4em;
+    font-size: 6.5em;
   }
 
   .next-donation-container{
@@ -10510,6 +10510,7 @@ ul.mesmerize-language-switcher.after-menu span {
   .next-donation-text{
     margin-top: 2em;
     font-family: futurastd-light;
+    font-size: 2.5em;
   }
 
 }
