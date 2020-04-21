@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="78525c23-f114-44ed-bc99-404dc3f680b7" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/front-page.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/front-page.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/page-templates/template-just-the-tip.php" beforeDir="false" afterPath="$PROJECT_DIR$/page-templates/template-just-the-tip.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -72,7 +70,7 @@
       <workItem from="1587218735617" duration="2165000" />
       <workItem from="1587308866273" duration="1855000" />
       <workItem from="1587416475275" duration="4630000" />
-      <workItem from="1587509265173" duration="485000" />
+      <workItem from="1587509265173" duration="1099000" />
     </task>
     <servers />
   </component>
