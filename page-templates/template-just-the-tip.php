@@ -9,8 +9,11 @@
 <div id='page-content' class="page-content">
     <?php
         $donate_options =  get_option('jtt_theme_settings');
+        $social_media_header   =  $donate_options['donation_social_media_header'];
+        $social_media_message   =  $donate_options['donation_social_media'];
         $date = strtotime($donate_options['donation_date']);
         $time = date('M j, Y', $date);
+
         ?>
     <div class="next-donation-container">
         <div class="next-donation-text">Next Donation</div>
@@ -18,12 +21,14 @@
     </div>
     <div class="content-block content-even col-xs-12">
         <?php
-        $post = get_page_by_title('How it Works', OBJECT, 'post');
+        $post = get_post(get_the_ID());
+        $content = apply_filters('the_content', $post->post_content);
+        echo $content;
+        //
         $donations = get_page_by_title('donations',OBJECT,'post');
         $donation_options = get_option('jtt_theme_settings');
         $donation_percentage = (isset($donation_options['donation_percentage'])) ? $donation_options['donation_percentage'] : 0;
         $donation_calculator_success = (isset($donation_options['donation_calculator_success'])) ? $donation_options['donation_calculator_success'] : 'To donate the tip, you must donate: ';
-        echo do_shortcode($post->post_content);
         ?>
         <br/>
         <div class="main-calculation-container col-xs-12">
@@ -42,31 +47,21 @@
                     </div>
                 </div>
             </div>
-            <div class="mobile-break submit-donation">Submit</div>
+            <div class="mobile-break submit-donation jtt-button">Submit</div>
             <div class="donate-percentage" data-text="<?php echo $donation_calculator_success;?>"></div>
 
         </div>
     </div>
-    <div class="content-block donations">
-        <?php echo $donations->post_content;?>
-    </div>
 
     <div class="social-media-box">
-        <h1 class="social-media">SHARE YOUR TIP</h1>
-        <textarea id="social-share">I did something with my tip..... #givejusthetip</textarea>
+        <h1 class="social-media"><?php echo $social_media_header;?></h1>
+        <textarea id="social-share"><?php echo $social_media_header;?></textarea>
         <div class="button-container">
         <a href="https://twitter.com/intent/tweet?hashtags=givejustthetip%2C&original_referer=http%3A%2F%2Flocalhost%3A8000%2F&ref_src=twsrc%5Etfw&text=give%20thet%20up&tw_p=tweetbutton"
-           class="twitter-hashtag-button twitter-button" target="_blank">Tweet
+           class="twitter-hashtag-button twitter-button mobile-break" target="_blank"><i class="fa fa-twitter"></i> Tweet
         </a>
         <div class="fb-share-button" data-href="https://givejustthetip.com" data-layout="button_count" data-size="large"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https://givejustthetip.com&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">Share</a></div>
         </div>
-    </div>
-    <div class="<?php mesmerize_page_content_wrapper_class(); ?>">
-        <?php
-        while (have_posts()) : the_post();
-            get_template_part('template-parts/content', 'page');
-        endwhile;
-        ?>
     </div>
 </div>
 

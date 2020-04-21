@@ -27,17 +27,23 @@ class JTT_Settings{
         add_settings_field('donation_percentage','Donation Percentage ', [$this, 'donation_percentage'],'jtt-setting-admin','donation_section','');
         add_settings_field('donation_calculator_success','Calculation Generated Text ', [$this, 'donation_calculator_success'],'jtt-setting-admin','donation_section','');
 
-        add_settings_section('page_sections', 'Break up the order of posts', [$this, 'donation_section_callback'], 'jtt-setting-admin');
-        add_settings_field('page_section_input','Name of posts. Please break up each post name with comma.', [$this, 'page_section_input'],'jtt-setting-admin','page_sections',$this->options['page_section_input']);
+        add_settings_section('page_sections', 'Social Media', [$this, 'donation_section_callback'], 'jtt-setting-admin');
+        add_settings_field('donation_social_media_header','Social Media Header.', [$this, 'donation_social_media_header'],'jtt-setting-admin','page_sections',$this->options['donation_social_media_header']);
+        add_settings_field('donation_social_media','Social Media Message.', [$this, 'page_section_input'],'jtt-setting-admin','page_sections',$this->options['donation_social_media']);
 
 
 
     }
 
 
+    public function donation_social_media_header(){
+        $social_media_header = (isset($this->options['donation_social_media_header'])) ? $this->options['donation_social_media_header'] : '';
+        print '<input name="jtt_theme_settings[donation_social_media_header]" type="text" value="'.$social_media_header.'" style="width:400px;">';
+    }
+
     public function page_section_input(){
-        $pages = (isset($this->options['page_section_input'])) ? $this->options['page_section_input'] : '';
-        print '<input name="jtt_theme_settings[page_section_input]" type="text" value="'.$pages.'" style="width:400px;">';
+        $social_media = (isset($this->options['donation_social_media'])) ? $this->options['donation_social_media'] : '';
+        print '<input name="jtt_theme_settings[donation_social_media]" type="text" value="'.$social_media.'" style="width:400px;">';
     }
 
     public function donation_calculator_success(){

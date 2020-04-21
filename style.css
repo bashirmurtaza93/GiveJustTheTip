@@ -34,6 +34,11 @@ This theme, like WordPress, is licensed under the GPL.
   src: url("assets/fonts/FuturaStd-Book.otf");
   font-weight: normal;
 }
+/*@font-face {*/
+/*  font-family: druk-medium;*/
+/*  src: url("assets/fonts/Druk Wide Web Medium Regular.ttf");*/
+/*  font-weight: normal;*/
+/*}*/
 .color1 {
   color: #03a9f4;
 }
@@ -10323,7 +10328,7 @@ ul.mesmerize-language-switcher.after-menu span {
   text-align: center;
 }
 
-.submit-donation{
+.jtt-button{
   padding: 10px 40px;
   background-color: #6AFF7F;
   color: #003B7E;
@@ -10337,7 +10342,7 @@ ul.mesmerize-language-switcher.after-menu span {
   font-family: druk;
 }
 
-.submit-donation:hover{
+.jtt-button:hover{
   cursor: pointer;
   box-shadow: 0 0 10px #003B7E;
   transition: all .3s ease-in-out;
@@ -10413,7 +10418,7 @@ ul.mesmerize-language-switcher.after-menu span {
 }
 
 .twitter-button{
-  padding: 3px 20px;
+  padding: 3px 15px;
   background-color: #03a9f4;
   color: white !important;
   border-radius: 5px;
@@ -10470,8 +10475,24 @@ ul.mesmerize-language-switcher.after-menu span {
   font-family: futurastd-light;
 }
 
+.custom-eye{
+  position: absolute;
+  display: inline-block;
+  margin-top: -20px;
+  font-weight: 100;
+  font-size: 0.6em;
+  margin-left: -2.5px;
+  background-color: #6AFF7F;
+  padding-left: 5px;
+  height: 35px;
+}
 
 @media only screen and (max-width: 720px) {
+
+  .twitter-button{
+    width: 100px;
+    margin: 20px auto !important;
+  }
   .content-block{
     padding:30px 30px;
     color: black;
@@ -10480,6 +10501,8 @@ ul.mesmerize-language-switcher.after-menu span {
     letter-spacing: 0.7px;
 
   }
+
+
 
   .break-div{
     margin-left: -30px;
@@ -10526,7 +10549,15 @@ ul.mesmerize-language-switcher.after-menu span {
   .header-homepage .header-description-row{
     margin-top: 20% !important;
   }
+
+  .custom-eye{
+    margin-top: -8px;
+    margin-left: -3.8px;
+    height: 28px;
+  }
 }
+
+
 
 
 @media only screen and (max-width: 900px) {
@@ -10554,5 +10585,11 @@ ul.mesmerize-language-switcher.after-menu span {
   .align-holder{
     float: none !important;
     text-align: center !important;
+  }
+}
+
+@media only screen and (max-width: 350px) {
+  .hero-title{
+    font-size: 3.5em;
   }
 }

@@ -3,6 +3,7 @@ $(document).ready(function(){
     countDown();
     percentageSubmit();
     socialMedia();
+    scrollDonation();
 
 });
 
@@ -65,4 +66,13 @@ function addLeadingZero(num){
     } else{
         return num;
     }
+}
+
+function scrollDonation(){
+    $(".donate-button-anchor").click(function () {
+        $([document.documentElement, document.body]).animate({
+            scrollTop: $(".donations").offset().top - 200
+        }, 1000);
+        // ...
+    });
 }
