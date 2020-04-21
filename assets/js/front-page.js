@@ -8,9 +8,11 @@ $(document).ready(function(){
 });
 
 function socialMedia(){
-    $(document).on('keypress','#social-share',function(){
-     var twitter = 'https://twitter.com/intent/tweet?hashtags=givejustthetip%2C&original_referer=http%3A%2F%2Flocalhost%3A8000%2F&ref_src=twsrc%5Etfw&text='+$(this).val()+'&tw_p=tweetbutton';
-     $('.twitter-button').attr('href',twitter);
+    $(document).on('click','.twitter-button',function(e){
+       e.preventDefault();
+        var url = 'https://twitter.com/intent/tweet?hashtags=givejustthetip%2C&original_referer=http%3A%2F%2Flocalhost%3A8000%2F&ref_src=twsrc%5Etfw&text='+$('#social-share').val()+'&tw_p=tweetbutton';
+        window.open(url, '_blank');
+
     });
 }
 

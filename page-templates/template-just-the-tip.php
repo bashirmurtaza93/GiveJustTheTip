@@ -55,9 +55,9 @@
 
     <div class="social-media-box">
         <h1 class="social-media"><?php echo $social_media_header;?></h1>
-        <textarea id="social-share"><?php echo $social_media_header;?></textarea>
+        <textarea id="social-share"><?php echo $social_media_message;?></textarea>
         <div class="button-container">
-        <a href="https://twitter.com/intent/tweet?hashtags=givejustthetip%2C&original_referer=http%3A%2F%2Flocalhost%3A8000%2F&ref_src=twsrc%5Etfw&text=give%20thet%20up&tw_p=tweetbutton"
+        <a href="#"
            class="twitter-hashtag-button twitter-button mobile-break" target="_blank"><i class="fa fa-twitter"></i> Tweet
         </a>
         <div class="fb-share-button" data-href="https://givejustthetip.com" data-layout="button_count" data-size="large"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https://givejustthetip.com&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">Share</a></div>
