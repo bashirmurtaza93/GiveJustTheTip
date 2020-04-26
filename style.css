@@ -10629,7 +10629,8 @@ ul.mesmerize-language-switcher.after-menu span {
     font-size: 4em !important;
   }
   .hero-subtitle{
-    font-size: 2em;
+    font-size: 1.7em;
+    margin-bottom: 20px;
   }
 
   .header-homepage .header-description-row{
