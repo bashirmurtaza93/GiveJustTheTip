@@ -47,7 +47,7 @@
                     </div>
                 </div>
             </div>
-            <div class="mobile-break submit-donation jtt-button">Calculate</div>
+            <button class="submit-donation jtt-button">Calculate</button>
             <div class="donate-percentage" data-text="<?php echo $donation_calculator_success;?>"></div>
 
         </div>
