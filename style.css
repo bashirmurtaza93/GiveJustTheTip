@@ -10598,6 +10598,10 @@ ul.mesmerize-language-switcher.after-menu span {
     margin-bottom: 40px;
   }
 
+  .jtt-button-share{
+    margin-bottom: 20px;
+  }
+
 }
 
 @media only screen and (max-width: 1024px) {
