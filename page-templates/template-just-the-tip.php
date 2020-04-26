@@ -31,38 +31,19 @@
         $donation_calculator_success = (isset($donation_options['donation_calculator_success'])) ? $donation_options['donation_calculator_success'] : 'To donate the tip, you must donate: ';
         ?>
         <br/>
-        <div class="main-calculation-container col-xs-12">
-            <div class="calculation-container col-xs-12">
-                <div class="col-sm-12 col-md-5 percentage-container">
-                    <div class="percentage-information-container">
-                        <div class="unemployment-label">Unemployment Percentage</div>
-                        <input type="text" disabled value="<?php echo $donation_percentage;?>" id="percentage">
-                    </div>
-                </div>
-                <div class="mobile-break multiplier col-md-2">*</div>
-                <div class="col-sm-12 col-md-5 paycheck-container">
-                    <div class="paycheck-information-container">
-                        <div class="unemployment-label">Bi Weekly Paycheck</div>
-                        <span class="dollar-sign">$<input type="text" id="paycheck"></span>
-                    </div>
-                </div>
-            </div>
-            <button class="submit-donation jtt-button">Calculate</button>
-            <div class="donate-percentage" data-text="<?php echo $donation_calculator_success;?>"></div>
 
-        </div>
     </div>
 
-    <div class="social-media-box">
-        <h1 class="social-media"><?php echo $social_media_header;?></h1>
-        <textarea id="social-share"><?php echo $social_media_message;?></textarea>
-        <div class="button-container">
-        <a href="#"
-           class="twitter-hashtag-button twitter-button mobile-break" target="_blank"><i class="fa fa-twitter"></i> Tweet
-        </a>
-        <div class="fb-share-button" data-href="https://givejustthetip.com" data-layout="button_count" data-size="large"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https://givejustthetip.com&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">Share</a></div>
-        </div>
-    </div>
+<!--    <div class="social-media-box">-->
+<!--        <h1 class="social-media">--><?php //echo $social_media_header;?><!--</h1>-->
+<!--        <textarea id="social-share">--><?php //echo $social_media_message;?><!--</textarea>-->
+<!--        <div class="button-container">-->
+<!--        <a href="#"-->
+<!--           class="twitter-hashtag-button twitter-button mobile-break" target="_blank"><i class="fa fa-twitter"></i> Tweet-->
+<!--        </a>-->
+<!--        <div class="fb-share-button" data-href="https://givejustthetip.com" data-layout="button_count" data-size="large"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https://givejustthetip.com&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">Share</a></div>-->
+<!--        </div>-->
+<!--    </div>-->
 </div>
 
 <?php get_footer(); ?>

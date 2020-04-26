@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="78525c23-f114-44ed-bc99-404dc3f680b7" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/inc/header-options/content-options/title.php" beforeDir="false" afterPath="$PROJECT_DIR$/inc/header-options/content-options/title.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/front-page.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/front-page.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inc/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/inc/functions.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/page-templates/template-just-the-tip.php" beforeDir="false" afterPath="$PROJECT_DIR$/page-templates/template-just-the-tip.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,7 +74,7 @@
       <workItem from="1587308866273" duration="1855000" />
       <workItem from="1587416475275" duration="4630000" />
       <workItem from="1587509265173" duration="1701000" />
-      <workItem from="1587910907245" duration="4063000" />
+      <workItem from="1587910907245" duration="10355000" />
     </task>
     <servers />
   </component>
@@ -78,6 +82,10 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="3126" y="158" key="CommitChangelistDialog2" timestamp="1587927711831">
+      <screen x="2560" y="10" width="2048" height="1112" />
+    </state>
+    <state x="3126" y="158" key="CommitChangelistDialog2/0.0.2048.1112/2560.10.2048.1112@2560.10.2048.1112" timestamp="1587927711831" />
     <state x="805" y="311" key="FileChooserDialogImpl" timestamp="1587172972665">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
@@ -100,26 +108,28 @@
       <screen x="3840" y="0" width="2194" height="1194" />
     </state>
     <state x="4746" y="514" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.2194.1194/3840.0.2194.1194@3840.0.2194.1194" timestamp="1587309271186" />
-    <state x="2716" y="-7" width="1699" height="820" maximized="true" key="dock-window-1" timestamp="1587910953342">
+    <state x="2722" y="172" width="1696" height="820" maximized="true" key="dock-window-1" timestamp="1587935929540">
       <screen x="2560" y="10" width="2048" height="1112" />
     </state>
     <state x="2716" y="-7" width="1699" height="820" maximized="true" key="dock-window-1/0.0.2048.1112/2560.0.2048.1112@2560.0.2048.1112" timestamp="1587509665518" />
+    <state x="2722" y="172" width="1696" height="820" maximized="true" key="dock-window-1/0.0.2048.1112/2560.10.2048.1112@2560.10.2048.1112" timestamp="1587935929540" />
     <state x="4281" y="470" width="1830" height="819" key="dock-window-1/0.0.2194.1194/3840.0.2194.1194@3840.0.2194.1194" timestamp="1586537890935" />
     <state x="3953" y="372" width="1830" height="1180" key="dock-window-2" timestamp="1586541619375">
       <screen x="3840" y="0" width="2194" height="1194" />
     </state>
     <state x="3953" y="372" width="1830" height="1180" key="dock-window-2/0.0.2194.1194/3840.0.2194.1194@3840.0.2194.1194" timestamp="1586541619375" />
-    <state x="3298" y="192" width="866" height="749" key="find.popup" timestamp="1587911674848">
+    <state x="3298" y="192" width="866" height="749" key="find.popup" timestamp="1587931404091">
       <screen x="2560" y="10" width="2048" height="1112" />
     </state>
     <state x="738" y="182" width="866" height="749" key="find.popup/0.0.2048.1112/2560.0.2048.1112@0.0.2048.1112" timestamp="1587418322866" />
     <state x="3298" y="182" width="866" height="749" key="find.popup/0.0.2048.1112/2560.0.2048.1112@2560.0.2048.1112" timestamp="1586995474253" />
-    <state x="3298" y="192" width="866" height="749" key="find.popup/0.0.2048.1112/2560.10.2048.1112@2560.10.2048.1112" timestamp="1587911674848" />
+    <state x="3298" y="192" width="866" height="749" key="find.popup/0.0.2048.1112/2560.10.2048.1112@2560.10.2048.1112" timestamp="1587931404091" />
     <state x="791" y="195" width="927" height="804" key="find.popup/0.0.2194.1194/3840.0.2194.1194@0.0.2194.1194" timestamp="1586701779685" />
     <state x="4631" y="195" width="927" height="804" key="find.popup/0.0.2194.1194/3840.0.2194.1194@3840.0.2194.1194" timestamp="1586617324893" />
-    <state x="4594" y="279" key="run.anything.popup" timestamp="1586624442128">
-      <screen x="3840" y="0" width="2194" height="1194" />
+    <state x="3264" y="270" key="run.anything.popup" timestamp="1587931805767">
+      <screen x="2560" y="10" width="2048" height="1112" />
     </state>
+    <state x="3264" y="270" key="run.anything.popup/0.0.2048.1112/2560.10.2048.1112@2560.10.2048.1112" timestamp="1587931805767" />
     <state x="4594" y="279" key="run.anything.popup/0.0.2194.1194/3840.0.2194.1194@3840.0.2194.1194" timestamp="1586624442128" />
   </component>
 </project>

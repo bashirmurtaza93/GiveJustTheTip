@@ -1,10 +1,12 @@
-
+var tip_options = justthetip_vars.donation_options;
 $(document).ready(function(){
     countDown();
+    setDonationInfo();
+    setSocialMedia();
     percentageSubmit();
     socialMedia();
     scrollDonation();
-
+    console.log(justthetip_vars);
 });
 
 function socialMedia(){
@@ -29,6 +31,16 @@ function percentageSubmit(){
         $('.inline-field').val(donate.toFixed(2));
         $('.mat-input-element').val(text);
     })
+}
+
+function setDonationInfo(){
+    $('#percentage').val(tip_options.donation_percentage);
+    $('.donate-percentage').attr('data-text',tip_options.donation_calculator_success);
+}
+
+function setSocialMedia(){
+    $('.social-media').text(tip_options.donation_social_media_header);
+    $('#social-share').text(tip_options.donation_social_media)
 }
 
 function countDown(){
@@ -74,6 +86,13 @@ function scrollDonation(){
     $(".donate-button-anchor").click(function () {
         $([document.documentElement, document.body]).animate({
             scrollTop: $(".donations").offset().top - 200
+        }, 1000);
+        // ...
+    });
+
+    $(".share-button-anchor").click(function () {
+        $([document.documentElement, document.body]).animate({
+            scrollTop: $(".social-media").offset().top - 200
         }, 1000);
         // ...
     });

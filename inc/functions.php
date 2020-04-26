@@ -586,6 +586,7 @@ function mesmerize_enqueue( $type = 'style', $handle, $args = array() ) {
 
     wp_enqueue_script( 'mesmerize-theme-info', get_template_directory_uri() . "/assets/js/front-page.js",
         array( 'jquery' ), '', true );
+    wp_localize_script('mesmerize-theme-info','justthetip_vars',['donation_options' =>  get_option('jtt_theme_settings')]);
 }
 
 function image_block_handler($arr){
