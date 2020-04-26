@@ -83,7 +83,9 @@ function mesmerize_print_header_title()
 
     if ($show) {
         $image =         $donate_options =  get_option('jtt_theme_settings')['donation_image'];
-        printf('<div class="header-container"><h1 class="hero-title">JUST THE T<div class="custom-eye">^</div>IP</h1><br/><h2 class="hero-subtitle">Can make a difference</h2></div>');
+        printf('<div class="header-container"><h1 class="hero-title">JUST THE T<div class="custom-eye">^</div>IP</h1><br/><h2 class="hero-subtitle">Can make a difference</h2>
+        <button class="mobile-break jtt-button-inverse donate-button-anchor" data-scroll="donations">Donate</button>
+        </div>');
         printf('<img class="header-image" src="%1$s">', $image);
     }
 }

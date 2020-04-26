@@ -16,15 +16,15 @@
 
         ?>
     <div class="next-donation-container">
-        <div class="next-donation-text">Next Donation</div>
+        <div class="next-donation-text"><?php echo $donate_options['donation_heading'];?></div>
      <div id="countdown" data-time="<?php echo $time;?>"></div>
     </div>
     <div class="content-block content-even col-xs-12">
+
         <?php
         $post = get_post(get_the_ID());
         $content = apply_filters('the_content', $post->post_content);
         echo $content;
-        //
         $donations = get_page_by_title('donations',OBJECT,'post');
         $donation_options = get_option('jtt_theme_settings');
         $donation_percentage = (isset($donation_options['donation_percentage'])) ? $donation_options['donation_percentage'] : 0;
@@ -47,7 +47,7 @@
                     </div>
                 </div>
             </div>
-            <div class="mobile-break submit-donation jtt-button">Submit</div>
+            <div class="mobile-break submit-donation jtt-button">Calculate</div>
             <div class="donate-percentage" data-text="<?php echo $donation_calculator_success;?>"></div>
 
         </div>
