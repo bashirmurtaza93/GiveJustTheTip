@@ -10547,12 +10547,12 @@ ul.mesmerize-language-switcher.after-menu span {
   height: 35px;
 }
 
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 1300px) {
   .hero-title{
     font-size: 4em !important;
   }
   .hero-subtitle{
-    font-size: 2em;
+    font-size: 1.7em;
   }
 
   .header-homepage .header-description-row{
@@ -10560,9 +10560,13 @@ ul.mesmerize-language-switcher.after-menu span {
   }
 
   .custom-eye{
-    margin-top: -8px;
-    margin-left: -4.8px;
-    height: 28px;
+    margin-top: -7px;
+    margin-left: -3.6px;
+    height: 32px;
+  }
+
+  .jtt-button-inverse{
+    padding: 20px 40px;
   }
 
   .content-block{
