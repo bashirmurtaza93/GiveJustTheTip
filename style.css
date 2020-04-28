@@ -10733,7 +10733,21 @@ ul.mesmerize-language-switcher.after-menu span {
 
 }
 
+@media only screen
+and (min-device-width: 1024px)
+and (max-device-width: 1366px) {
+  .header,
+  .header-homepage {
+    min-height: 35vh;
+  }
+}
 
+@media only screen and (max-height: 750px ){
+  .header,
+  .header-homepage {
+    min-height: 85vh;
+  }
+}
 
 @media only screen and (max-width: 350px) {
   .hero-title{
