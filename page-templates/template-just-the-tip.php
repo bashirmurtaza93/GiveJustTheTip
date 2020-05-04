@@ -3,22 +3,31 @@
  * Template Name: Just The Tip
  */
 ?>
-<?php mesmerize_get_header(); ?>
+<?php mesmerize_get_header();
+
+$donate_options = get_option('jtt_theme_settings');
+$social_media_header = $donate_options['donation_social_media_header'];
+$social_media_message = $donate_options['donation_social_media'];
+$date = strtotime($donate_options['donation_date']);
+$time = date('M j, Y', $date);
+$display_countdown = '';
+$padding_fix_content = '';
+if ($donate_options['donation_toggle'] !== "on") {
+    $display_countdown = 'style="display:none"';
+    $padding_fix_content = 'remove-padding';
+
+}
+
+?>
 <div id="fb-root"></div>
 <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v6.0"></script>
-<div id='page-content' class="page-content">
-    <?php
-        $donate_options =  get_option('jtt_theme_settings');
-        $social_media_header   =  $donate_options['donation_social_media_header'];
-        $social_media_message   =  $donate_options['donation_social_media'];
-        $date = strtotime($donate_options['donation_date']);
-        $time = date('M j, Y', $date);
+<div id='page-content' class="page-content <?php echo $padding_fix_content;?>">
 
-        ?>
-    <div class="next-donation-container">
+    <div class="next-donation-container" <?php echo $display_countdown;?>>
         <div class="next-donation-text"><?php echo $donate_options['donation_heading'];?></div>
-     <div id="countdown" data-time="<?php echo $time;?>"></div>
+        <div id="countdown" data-time="<?php echo $time;?>"></div>
     </div>
+
     <div class="content-block content-even col-xs-12">
 
         <?php

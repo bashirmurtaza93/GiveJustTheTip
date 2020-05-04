@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="78525c23-f114-44ed-bc99-404dc3f680b7" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inc/theme-settings.php" beforeDir="false" afterPath="$PROJECT_DIR$/inc/theme-settings.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/page-templates/template-just-the-tip.php" beforeDir="false" afterPath="$PROJECT_DIR$/page-templates/template-just-the-tip.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -73,7 +75,11 @@
       <workItem from="1587509265173" duration="1701000" />
       <workItem from="1587910907245" duration="11956000" />
       <workItem from="1587991053386" duration="2197000" />
-      <workItem from="1588078139509" duration="377000" />
+      <workItem from="1588078139509" duration="977000" />
+      <workItem from="1588281091080" duration="614000" />
+      <workItem from="1588368346764" duration="18000" />
+      <workItem from="1588617113321" duration="266000" />
+      <workItem from="1588618300455" duration="2523000" />
     </task>
     <servers />
   </component>
@@ -97,10 +103,11 @@
       <screen x="2560" y="0" width="2048" height="1112" />
     </state>
     <state x="2653" y="93" width="1862" height="926" key="com.intellij.history.integration.ui.views.SelectionHistoryDialog/0.0.2048.1112/2560.0.2048.1112@2560.0.2048.1112" timestamp="1586913135732" />
-    <state x="3305" y="402" key="com.intellij.ide.util.TipDialog" timestamp="1588078161480">
-      <screen x="2560" y="10" width="2048" height="1112" />
+    <state x="745" y="392" key="com.intellij.ide.util.TipDialog" timestamp="1588618310109">
+      <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state x="3305" y="392" key="com.intellij.ide.util.TipDialog/0.0.2048.1112/2560.0.2048.1112@2560.0.2048.1112" timestamp="1587156860409" />
+    <state x="745" y="392" key="com.intellij.ide.util.TipDialog/0.0.2048.1112/2560.10.2048.1112@0.0.2048.1112" timestamp="1588618310109" />
     <state x="3305" y="402" key="com.intellij.ide.util.TipDialog/0.0.2048.1112/2560.10.2048.1112@2560.10.2048.1112" timestamp="1588078161480" />
     <state x="798" y="421" key="com.intellij.ide.util.TipDialog/0.0.2194.1194/3840.0.2194.1194@0.0.2194.1194" timestamp="1587308869489" />
     <state x="4638" y="421" key="com.intellij.ide.util.TipDialog/0.0.2194.1194/3840.0.2194.1194@3840.0.2194.1194" timestamp="1586701043727" />
@@ -118,12 +125,12 @@
       <screen x="3840" y="0" width="2194" height="1194" />
     </state>
     <state x="3953" y="372" width="1830" height="1180" key="dock-window-2/0.0.2194.1194/3840.0.2194.1194@3840.0.2194.1194" timestamp="1586541619375" />
-    <state x="3298" y="192" width="866" height="749" key="find.popup" timestamp="1587931404091">
+    <state x="3298" y="192" width="866" height="749" key="find.popup" timestamp="1588629142582">
       <screen x="2560" y="10" width="2048" height="1112" />
     </state>
     <state x="738" y="182" width="866" height="749" key="find.popup/0.0.2048.1112/2560.0.2048.1112@0.0.2048.1112" timestamp="1587418322866" />
     <state x="3298" y="182" width="866" height="749" key="find.popup/0.0.2048.1112/2560.0.2048.1112@2560.0.2048.1112" timestamp="1586995474253" />
-    <state x="3298" y="192" width="866" height="749" key="find.popup/0.0.2048.1112/2560.10.2048.1112@2560.10.2048.1112" timestamp="1587931404091" />
+    <state x="3298" y="192" width="866" height="749" key="find.popup/0.0.2048.1112/2560.10.2048.1112@2560.10.2048.1112" timestamp="1588629142582" />
     <state x="791" y="195" width="927" height="804" key="find.popup/0.0.2194.1194/3840.0.2194.1194@0.0.2194.1194" timestamp="1586701779685" />
     <state x="4631" y="195" width="927" height="804" key="find.popup/0.0.2194.1194/3840.0.2194.1194@3840.0.2194.1194" timestamp="1586617324893" />
     <state x="3264" y="270" key="run.anything.popup" timestamp="1587931805767">

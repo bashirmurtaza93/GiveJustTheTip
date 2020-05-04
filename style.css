@@ -10552,6 +10552,10 @@ ul.mesmerize-language-switcher.after-menu span {
   height: 35px;
 }
 
+.remove-padding{
+  padding-top: 0em !important;
+}
+
 @media only screen and (max-width: 1450px) {
   .header-image{
     width: 45%;
@@ -10563,6 +10567,10 @@ ul.mesmerize-language-switcher.after-menu span {
 
   .header-image{
     width: 55%;
+  }
+
+  .next-donation-text{
+    font-size: 2em;
   }
   .hero-title{
     font-size: 5em !important;
@@ -10633,8 +10641,6 @@ ul.mesmerize-language-switcher.after-menu span {
 
   .next-donation-text{
     margin-top: 2em;
-    font-family: futurastd-light;
-    font-size: 2.5em;
   }
 
   .next-donation-container{
@@ -10654,6 +10660,10 @@ ul.mesmerize-language-switcher.after-menu span {
     font-size: 1.7em;
     margin-bottom: 20px;
     margin-left: 0px;
+  }
+
+  .next-donation-text{
+    font-size: 1.7em;
   }
 
   .header-homepage .header-description-row{
@@ -10749,8 +10759,20 @@ and (max-device-width: 1366px) {
   }
 }
 
+@media only screen and (max-width: 400px) {
+
+  .next-donation-text {
+    font-size: 1.2em;
+    letter-spacing: 4px;
+  }
+
+}
+
 @media only screen and (max-width: 350px) {
   .hero-title{
-    font-size: 3.5em;
+    font-size: 3.25em !important;
   }
+
+
+
 }
