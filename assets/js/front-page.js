@@ -6,13 +6,13 @@ $(document).ready(function(){
     percentageSubmit();
     socialMedia();
     scrollDonation();
-    console.log(justthetip_vars);
 });
 
 function socialMedia(){
+    var hashtag = tip_options.donation_twitter_hashtag;
     $(document).on('click','.twitter-button',function(e){
        e.preventDefault();
-        var url = 'https://twitter.com/intent/tweet?hashtags=givejustthetip%2C&original_referer=http%3A%2F%2Flocalhost%3A8000%2F&ref_src=twsrc%5Etfw&text='+$('#social-share').val()+'&tw_p=tweetbutton';
+        var url = 'https://twitter.com/intent/tweet?hashtags='+hashtag+'%2C&original_referer=http%3A%2F%2Flocalhost%3A8000%2F&ref_src=twsrc%5Etfw&text='+$('#social-share').val()+'&tw_p=tweetbutton';
         window.open(url, '_blank');
 
     });

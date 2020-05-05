@@ -5517,7 +5517,7 @@ a.text-logo, a.text-logo:visited, a.text-logo:hover {
   background-size: cover;
   position: relative;
   z-index: 0;
-  min-height: 65vh;
+  min-height: 55vh;
   padding-top:  0px !important;
 }
 
@@ -10581,6 +10581,14 @@ ul.mesmerize-language-switcher.after-menu span {
     margin-left: -1px;
   }
 
+  .next-donation-container{
+    height: 18em;
+  }
+
+  #countdown{
+    font-size: 9em;
+  }
+
   .header-homepage .header-description-row{
     margin-top: 20% !important;
   }
@@ -10648,7 +10656,7 @@ ul.mesmerize-language-switcher.after-menu span {
   }
 
   #countdown{
-    font-size: 6.5em;
+    font-size: 9.5em;
   }
 }
 
@@ -10748,7 +10756,7 @@ and (min-device-width: 1024px)
 and (max-device-width: 1366px) {
   .header,
   .header-homepage {
-    min-height: 35vh;
+    min-height: 55vh;
   }
 }
 
