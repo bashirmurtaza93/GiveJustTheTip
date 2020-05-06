@@ -10823,6 +10823,10 @@ and (max-device-width: 1366px) {
     letter-spacing: 4px;
   }
 
+  .donation-empty{
+    width: 100%;
+  }
+
 }
 
 @media only screen and (max-width: 350px) {
