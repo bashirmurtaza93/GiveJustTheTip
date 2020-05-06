@@ -10555,10 +10555,59 @@ ul.mesmerize-language-switcher.after-menu span {
 .remove-padding{
   padding-top: 0em !important;
 }
+.donation-empty{
+  background-color:white;
+  width:375px;
+  height:375px;
+  margin: 0 auto;
+  border-radius: 10px;
+}
+
+.coming-soon{
+  text-align:center;
+  font-size:1em;
+  padding-top:50px;
+  padding-bottom:70px;
+  color:#003B7E;
+  font-weight:bold;
+}
+
+.donate-container{
+  text-align:center;
+  margin-top: -26px
+}
+
+.donate-button{
+  background-color:#6188FF;
+  margin-top:-10px;
+  padding:10px 55px;
+  border:0px;
+  border-radius:5px;
+  color:white;
+  font-size: 13px;
+  letter-spacing: 2px;
+  font-weight: bold;
+
+}
+
+
+.donation-name{
+  text-align: center;
+  font-weight: bold;
+  margin-top: 35px;
+  font-size: 21px;
+  color: #494D59;
+}
+
 
 @media only screen and (max-width: 1450px) {
   .header-image{
     width: 45%;
+  }
+
+  .coming-soon{
+    padding-top: 35px;
+    padding-bottom: 35px;
   }
 
 }
