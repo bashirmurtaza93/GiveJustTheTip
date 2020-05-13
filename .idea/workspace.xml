@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="78525c23-f114-44ed-bc99-404dc3f680b7" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -42,6 +43,7 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -78,6 +80,11 @@
       <workItem from="1588617113321" duration="266000" />
       <workItem from="1588618300455" duration="2523000" />
       <workItem from="1588713367650" duration="5407000" />
+      <workItem from="1588887380932" duration="2407000" />
+      <workItem from="1589028848970" duration="302000" />
+      <workItem from="1589136629269" duration="284000" />
+      <workItem from="1589206127551" duration="571000" />
+      <workItem from="1589410661820" duration="1118000" />
     </task>
     <servers />
   </component>
@@ -89,10 +96,11 @@
       <screen x="2560" y="10" width="2048" height="1112" />
     </state>
     <state x="3126" y="158" key="CommitChangelistDialog2/0.0.2048.1112/2560.10.2048.1112@2560.10.2048.1112" timestamp="1587927711831" />
-    <state x="805" y="311" key="FileChooserDialogImpl" timestamp="1587172972665">
-      <screen x="0" y="0" width="2048" height="1112" />
+    <state x="3365" y="321" key="FileChooserDialogImpl" timestamp="1589029147747">
+      <screen x="2560" y="10" width="2048" height="1112" />
     </state>
     <state x="805" y="311" key="FileChooserDialogImpl/0.0.2048.1112/2560.0.2048.1112@0.0.2048.1112" timestamp="1587172972665" />
+    <state x="3365" y="321" key="FileChooserDialogImpl/0.0.2048.1112/2560.10.2048.1112@2560.10.2048.1112" timestamp="1589029147747" />
     <state x="4772" y="521" key="NewPhpFileDialog" timestamp="1586531448601">
       <screen x="3840" y="0" width="2194" height="1194" />
     </state>
@@ -101,12 +109,12 @@
       <screen x="2560" y="0" width="2048" height="1112" />
     </state>
     <state x="2653" y="93" width="1862" height="926" key="com.intellij.history.integration.ui.views.SelectionHistoryDialog/0.0.2048.1112/2560.0.2048.1112@2560.0.2048.1112" timestamp="1586913135732" />
-    <state x="3305" y="402" key="com.intellij.ide.util.TipDialog" timestamp="1588713391161">
+    <state x="3305" y="402" key="com.intellij.ide.util.TipDialog" timestamp="1589028856556">
       <screen x="2560" y="10" width="2048" height="1112" />
     </state>
     <state x="3305" y="392" key="com.intellij.ide.util.TipDialog/0.0.2048.1112/2560.0.2048.1112@2560.0.2048.1112" timestamp="1587156860409" />
     <state x="745" y="392" key="com.intellij.ide.util.TipDialog/0.0.2048.1112/2560.10.2048.1112@0.0.2048.1112" timestamp="1588618310109" />
-    <state x="3305" y="402" key="com.intellij.ide.util.TipDialog/0.0.2048.1112/2560.10.2048.1112@2560.10.2048.1112" timestamp="1588713391161" />
+    <state x="3305" y="402" key="com.intellij.ide.util.TipDialog/0.0.2048.1112/2560.10.2048.1112@2560.10.2048.1112" timestamp="1589028856556" />
     <state x="798" y="421" key="com.intellij.ide.util.TipDialog/0.0.2194.1194/3840.0.2194.1194@0.0.2194.1194" timestamp="1587308869489" />
     <state x="4638" y="421" key="com.intellij.ide.util.TipDialog/0.0.2194.1194/3840.0.2194.1194@3840.0.2194.1194" timestamp="1586701043727" />
     <state x="4746" y="514" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1587309271186">

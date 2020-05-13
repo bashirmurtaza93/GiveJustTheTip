@@ -5523,7 +5523,7 @@ a.text-logo, a.text-logo:visited, a.text-logo:hover {
 
 h1.hero-title {
   letter-spacing: 0.9px;
-  font-size: 8em;
+  font-size: 7em;
   font-weight: bold;
   color: #003b7e;
   margin: 0px;
@@ -10301,7 +10301,7 @@ ul.mesmerize-language-switcher.after-menu span {
 
 .dollar-sign{
   font-size: 28px;
-  color: #6AFF7F;
+  color:#003B7E;
 }
 #percentage{
   display: inline-block;
@@ -10367,13 +10367,13 @@ ul.mesmerize-language-switcher.after-menu span {
 }
 
 .jtt-button-inverse{
-  padding: 30px 50px;
+  padding: 20px 40px;
   background-color: #003B7E;
   color: #6AFF7F;
   border-radius: 5px;
   border: 0px;
   font-weight: bold;
-  font-size: 3em;
+  font-size: 2.5em;
   display: inline-block;
   margin-top: 40px;
   text-transform: uppercase;
@@ -10474,13 +10474,17 @@ ul.mesmerize-language-switcher.after-menu span {
 }
 
 .twitter-button{
-  padding: 3px 15px;
+  padding: 4.4px 17.2px;
   background-color: #03a9f4;
   color: white !important;
   border-radius: 5px;
   border: 0px;
   margin-right: 20px;
   font-size: 14px;
+}
+
+.fb-share-button{
+  display: inline-block;
 }
 
 .button-container{
@@ -10530,7 +10534,7 @@ ul.mesmerize-language-switcher.after-menu span {
   color: #003B7E;
 }
 .hero-subtitle{
-  font-size: 3em;
+  font-size: 2.62em;
   text-transform: uppercase;
   color: #003b7e;
   font-weight: 100;
@@ -10594,7 +10598,7 @@ ul.mesmerize-language-switcher.after-menu span {
 .donation-name{
   text-align: center;
   font-weight: bold;
-  margin-top: 35px;
+  margin-top: 35%;
   font-size: 21px;
   color: #494D59;
 }
@@ -10613,19 +10617,26 @@ ul.mesmerize-language-switcher.after-menu span {
 }
 
 @media only screen and (max-width: 1300px) {
+  .twitter-button{
+    margin: 20px auto !important;
+  }
+
+  .button-container > p{
+    display: block;
+  }
 
   .header-image{
     width: 55%;
   }
 
   .next-donation-text{
-    font-size: 2em;
+    font-size: 1.7em;
   }
   .hero-title{
-    font-size: 5em !important;
+    font-size: 4em !important;
   }
   .hero-subtitle{
-    font-size: 2em;
+    font-size: 1.7em;
     margin-top: -30px;
     margin-left: -1px;
   }
@@ -10649,7 +10660,8 @@ ul.mesmerize-language-switcher.after-menu span {
   }
 
   .jtt-button-inverse{
-    padding: 20px 40px;
+    padding: 12px 32px;
+    font-size: 2em;
   }
 
   .content-block{
@@ -10697,7 +10709,7 @@ ul.mesmerize-language-switcher.after-menu span {
   }
 
   .next-donation-text{
-    margin-top: 2em;
+    margin-top: 1.7em;
   }
 
   .next-donation-container{
@@ -10749,13 +10761,14 @@ ul.mesmerize-language-switcher.after-menu span {
 }
 
 @media only screen and (max-width: 720px) {
-
   .twitter-button{
+    padding:0px;
     width: 100px;
     margin: 20px auto !important;
   }
+
   .content-block{
-    padding:30px 5px !important;
+    padding:30px 20px !important;
     color: black;
     line-height: 2;
     font-size: 1.5em;
@@ -10817,6 +10830,15 @@ and (max-device-width: 1366px) {
 }
 
 @media only screen and (max-width: 400px) {
+  .jtt-button-inverse{
+    padding: 5px 25px;
+    font-size: 1.5em;
+  }
+
+  .jtt-button{
+    padding: 5px 25px;
+    font-size: 1.5em;
+  }
 
   .next-donation-text {
     font-size: 1.2em;
@@ -10826,14 +10848,23 @@ and (max-device-width: 1366px) {
   .donation-empty{
     width: 100%;
   }
-
-}
-
-@media only screen and (max-width: 350px) {
+  .hero-subtitle {
+    font-size:1.2em;
+  }
   .hero-title{
-    font-size: 3.25em !important;
+    font-size: 3em !important;
   }
 
+  .next-donation-container {
+    height: 12em;
+  }
 
+  .header, .header-homepage {
+    min-height: 65vh;
+  }
+
+  .mesmerize-content-padding #page > .page-content, .mesmerize-inner-page #page > .page-content{
+    padding-top: 6em;
+  }
 
 }
